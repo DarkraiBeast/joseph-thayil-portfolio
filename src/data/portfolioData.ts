@@ -52,24 +52,21 @@ export interface EducationData {
 }
 
 export const MARQUEE_IMAGES_ROW_1 = [
-  '/assets/aistudio/projects/Pizza_takeaway_website_UI_design_851ee6c2.gif',
-  '/assets/aistudio/projects/UI_animation_sequence_on_smartphone_f964e16b.gif',
-  '/assets/aistudio/projects/Website_UI_displaying_movie_stre…_837801b8.gif',
-  '/assets/aistudio/projects/mar.gif',
-  '/assets/aistudio/projects/Marketing_posters_displaying_pro…_e592601c.gif',
+  '/assets/aistudio/projects/gifs/invent.gif',
+  '/assets/aistudio/projects/gifs/pizzahub.gif',
+  '/assets/aistudio/projects/gifs/commscope.gif',
+  '/assets/aistudio/projects/gifs/Streaming_website_interface_for_…_b89ca21a.gif',
+  '/assets/aistudio/projects/gifs/video.gif',
+  
+  
 ];
 
 export const MARQUEE_IMAGES_ROW_2 = [
-  // 'https://motionsites.ai/assets/hero-stellar-ai-preview-D3HL6bw1.gif',
-  // 'https://motionsites.ai/assets/hero-xportfolio-preview-D4A8maiC.gif',
-  // 'https://motionsites.ai/assets/hero-orbit-web3-preview-BXt4OttD.gif',
-  // 'https://motionsites.ai/assets/hero-nexora-preview-cx5HmUgo.gif',
-  // 'https://motionsites.ai/assets/hero-evr-ventures-preview-DZxeVFEX.gif',
-  // 'https://motionsites.ai/assets/hero-planet-orbit-preview-DWAP8Z1P.gif',
-  // 'https://motionsites.ai/assets/hero-new-era-preview-CocuDUm9.gif',
-  // 'https://motionsites.ai/assets/hero-wealth-preview-B70idl_u.gif',
-  // 'https://motionsites.ai/assets/hero-luminex-preview-CxOP7ce6.gif',
-  // 'https://motionsites.ai/assets/hero-celestia-preview-0yO3jXO8.gif',
+  '/assets/aistudio/projects/gifs/Marketing_posters_displaying_pro…_e592601c.gif',
+  '/assets/aistudio/projects/Gemini_Generated_Image_c6d7osc6d7osc6d7.png',
+    '/assets/aistudio/projects/gifs/laptop.gif',
+    '/assets/aistudio/projects/gifs/Display_website_fullscreen_418046ed.gif',
+    '/assets/aistudio/projects/gifs/editing.gif',
 ];
 
 export const STACKED_PROJECTS: ProjectCardData[] = [
@@ -163,31 +160,31 @@ export const SERVICES_LIST: ServiceItemData[] = [
     number: '01',
     title: 'FULL-STACK WEB DEVELOPMENT',
     description:
-      'Building responsive, scalable web applications with modern frontend and backend technologies, delivering seamless user experiences and robust functionality.\nASP.NET Core · C# · Blazor · JavaScript',
+      'Building responsive, scalable web applications with modern frontend and backend technologies, delivering seamless user experiences and robust functionality.\nASP.NET Core · C# · Blazor · React · JavaScript',
   },
   {
     number: '02',
-    title: 'BACKEND & API DEVELOPMENT',
+    title: 'BACKEND, API & DATABASE SOLUTIONS',
     description:
-      'Developing secure REST APIs, backend services, business logic, and third-party integrations to power reliable and scalable applications.\nASP.NET Core · C# · Node.js · REST APIs',
+      'Developing secure REST APIs, scalable backend services, efficient database architectures, and third-party integrations to power reliable applications.\nASP.NET Core · C# · Node.js · SQL Server · MySQL · REST APIs',
   },
   {
     number: '03',
-    title: 'DATABASE DESIGN & MANAGEMENT',
+    title: 'UI DEVELOPMENT & SYSTEM INTEGRATION',
     description:
-      'Designing efficient database structures, optimizing queries, managing relationships, and building reliable data-driven applications.\nSQL Server · MySQL · Database Optimization',
+      'Creating modern, interactive interfaces while connecting external services and automating workflows for seamless digital experiences.\nHTML · CSS · JavaScript · React · Blazor · RabbitMQ · Hangfire',
   },
   {
     number: '04',
-    title: 'UI DEVELOPMENT & INTERACTIVE EXPERIENCES',
+    title: 'VIDEO EDITING & MOTION DESIGN',
     description:
-      'Creating modern, responsive, and interactive interfaces with clean layouts and seamless user experiences across devices.\nHTML · CSS · JavaScript · React · Blazor',
+      'Producing engaging videos, cinematic edits, promotional content, and creative motion graphics that bring ideas and stories to life.\nAdobe Premiere Pro · Adobe After Effects · Video Production',
   },
   {
     number: '05',
-    title: 'SYSTEM INTEGRATION & AUTOMATION',
+    title: 'SOCIAL MEDIA MANAGEMENT & DIGITAL MARKETING',
     description:
-      'Integrating external services, connecting distributed systems, and automating complex workflows to improve business efficiency.\nRabbitMQ · Hangfire · Google Maps API · REST APIs',
+      'Building and managing social media presence through creative content, content planning, audience engagement, and digital marketing strategies that grow brand visibility.\nSocial Media Management · Content Strategy · Digital Marketing',
   },
 ];
 
